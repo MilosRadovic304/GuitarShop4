@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 2, 2018, 1:32:48 AM
+    Author     : Milos
+*/
+body {
+   margin:0;
+   padding:0;
+   min-height: 800px;
+   margin-bottom: 100px;
+   clear: both;
+}
+
+.b{
+   /* width:960px;*/
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.inp{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px; 
+    width: 30%; 
+    font-size: 30px;    
+}
+
+.search_button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: block;
+    width: 200px;
+    height: 70px; 
+    background: #DC143C;
+    background-image: -webkit-linear-gradient(top, #DC143C, #DC143C);
+    background-image: -moz-linear-gradient(top, #DC143C, #DC143C);
+    background-image: -ms-linear-gradient(top, #DC143C, #DC143C);
+    background-image: -o-linear-gradient(top, #DC143C, #DC143C);
+    background-image: linear-gradient(to bottom, #DC143C, #DC143C);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px; 
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.search_button:hover {
+    background: #DC143C;
+    background-image: -webkit-linear-gradient(top, #F08080, #F08080);
+    background-image: -moz-linear-gradient(top, #F08080, #F08080);
+    background-image: -ms-linear-gradient(top, #F08080, #F08080);
+    background-image: -o-linear-gradient(top, #F08080, #F08080);
+    background-image: linear-gradient(to bottom, #F08080, #F08080);
+    text-decoration: none;
+}
+
+.image_strat{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px; 
+}
+
+@media only screen and (max-width: 1200px){
+   .image_strat{
+       width: 800px;
+    }
+}
+
+@media only screen and (max-width: 900px){   
+    
+    .image_strat{
+        width: 600px;
+    }
+    
+    .inp{
+        height: 40px; 
+        width: 30%; 
+        font-size: 20px; 
+    }
+}
+
+@media only screen and (max-width: 650px){   
+    
+    .image_strat{
+        width: 400px;
+    }
+    
+    .inp{
+        height: 30px; 
+        width: 30%; 
+        font-size: 15px;
+    }
+    
+    .search_button{
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 450px){   
+    
+    .image_strat{
+        width: 300px;
+    }
+    
+    .inp{
+        height: 25px; 
+        width: 30%; 
+        font-size: 12px;
+    }
+    
+    .search_button{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 350px){   
+    
+    .image_strat{
+        width: 200px;
+    }
+    
+    .inp{
+        height: 20px; 
+        width: 30%; 
+        font-size: 9px;
+    }
+    
+    .search_button{
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
+
+

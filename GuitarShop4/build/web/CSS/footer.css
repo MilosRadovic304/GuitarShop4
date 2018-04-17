@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 2, 2018, 1:35:04 AM
+    Author     : Milos
+*/
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #DCDCDC;
+}
+
+
+@media only screen and (max-width: 900px){   
+    
+    .footer{
+        height: 80px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    
+    .footer{
+        height: 60px;
+    }
+    
+    h2{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    
+    .footer{
+        height: 50px;
+    }
+    
+    h2{
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    
+    .footer{
+        height: 40px;
+    }
+    
+    h2{
+        font-size: 9px;
+    }
+
+    h3{
+        font-size: 7px;
+    }
+} 
